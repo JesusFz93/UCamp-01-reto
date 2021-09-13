@@ -1,0 +1,19 @@
+.fl-padre {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  border: solid 2px black;
+}
+
+.fl-hijos {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: orangered;
+  border: solid 2px black;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

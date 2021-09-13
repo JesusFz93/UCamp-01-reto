@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-    <!-- Navbar -->
-    <ul class="nav">
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="acerca.html">ACERCA</a></li>
-        <li><a href="contacto.html">CONTACTO</a></li>
-        <li><a href="ayuda.html">AYUDA</a></li>
+    <!-- Navbar con Flexbox -->
+    <ul class="navflex">
+        <li class="navItemFlex"><a class="navLinkFlex" href="index.html">INICIO</a></li>
+        <li class="navItemFlex"><a class="navLinkFlex" href="acerca.html">ACERCA</a></li>
+        <li class="navItemFlex"><a class="navLinkFlex" href="contacto.html">CONTACTO</a></li>
+        <li class="navItemFlex"><a class="navLinkFlex" href="ayuda.html">AYUDA</a></li>
     </ul>
     
     <!-- Titulo -->
@@ -28,15 +28,15 @@
     <section class="flex-container-unelemento">
         <div class="info-contacto">
             <p><b><i class="fas fa-mobile-alt"></i> Movil:</b> +52 8991227012</p>
-            <p><b><i class="fas fa-at"></i> Correo:</b> jesus_fdz93@hotmail.com</p>
-            <p><b><i class="fab fa-facebook"></i> FaceBook:</b> JesusFdz93</p>
+            <p><b><i class="fas fa-at"></i> Correo:</b><a id="correo" href="mailto:jesus_fdz93@hotmail.com?subject=Contacto&body=Es una prueba"> jesus_fdz93@hotmail.com</a></p>
+            <p><b><i class="fab fa-facebook"></i> FaceBook:</b><a id="face" href="https://www.facebook.com/jesusfdz93/" target="_blank"> JesusFdz93</a></p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <p>
-            &copy; <script>document.write(new Date().getFullYear())</script> Jesus Fernandez - Reto 01
+            &copy; <script>document.write(new Date().getFullYear())</script> Jes&uacute;s Fern&aacute;ndez - Reto 01
         </p>
     </footer>
 </body>

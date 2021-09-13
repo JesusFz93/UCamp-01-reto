@@ -1,0 +1,26 @@
+.navflex {
+  display: flex;
+
+  align-items: stretch;
+  justify-content: center;
+
+  list-style-type: none;
+  background-color: #333;
+  height: 75px;
+}
+
+.navItemFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px white;
+  width: 150px;
+}
+
+.navLinkFlex {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
