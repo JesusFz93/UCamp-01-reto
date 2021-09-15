@@ -24,3 +24,15 @@
   padding: 14px 16px;
   text-decoration: none;
 }
+
+.navItemFlex:hover {
+  background-color: #09d6c7;
+}
+
+.navItemFlex:active {
+  color: red;
+}
+
+.navItemFlex:focus {
+  background-color: yellow;
+}

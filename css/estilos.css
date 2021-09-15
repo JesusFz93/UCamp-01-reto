@@ -1,9 +1,9 @@
-@import url("navbar.css");
+@import url("acerca.css");
+@import url("ayuda.css");
+@import url("contacto.css");
 @import url("footer.css");
 @import url("inicio.css");
-@import url("acerca.css");
-@import url("contacto.css");
-@import url("ayuda.css");
+@import url("navbar.css");
 
 /* Fuente universal */
 body {

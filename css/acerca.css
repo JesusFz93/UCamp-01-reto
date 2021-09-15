@@ -8,6 +8,10 @@
   color: green;
 }
 
+.informacion {
+  width: 600px;
+}
+
 .informacion p {
   font-size: 20px;
 }
@@ -24,4 +28,5 @@
 /* ACERCA - Imagen */
 .imagen {
   border: lightblue solid 5px;
+  height: 528px;
 }
