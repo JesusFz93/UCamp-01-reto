@@ -1,0 +1,11 @@
+/* CONTACTO - Info contacto */
+.info-contacto {
+  font-size: 20px;
+}
+
+/* CONTACTO - Info contacto - facebook y correo */
+#face,
+#correo {
+  color: black;
+  text-decoration: none;
+}

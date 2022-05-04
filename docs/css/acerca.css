@@ -1,0 +1,32 @@
+/* ACERCA - Subtitulo */
+.subtitulo {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.subtitulo span {
+  color: green;
+}
+
+.informacion {
+  width: 600px;
+}
+
+.informacion p {
+  font-size: 20px;
+}
+
+/* ACERCA - Flexbox */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+/* ACERCA - Imagen */
+.imagen {
+  border: lightblue solid 5px;
+  height: 528px;
+}

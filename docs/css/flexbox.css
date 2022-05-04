@@ -1,0 +1,41 @@
+.fl-padre {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: purple;
+  border: solid 2px black;
+}
+
+.fl-hijos {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: solid 2px black;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.link {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: solid 2px black;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.brand {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: solid 2px black;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

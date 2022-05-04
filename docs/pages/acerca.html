@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca</title>
+
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+    <!-- Navbar con Flexbox -->
+    <ul class="navflex">
+        <li class="navItemFlex"><a class="navLinkFlex" href="/index.html">INICIO</a></li>
+        <li class="navItemFlex"><a class="navLinkFlex" href="/pages/acerca.html">ACERCA</a></li>
+        <li class="navItemFlex"><a class="navLinkFlex" href="/pages/contacto.html">CONTACTO</a></li>
+        <li class="navItemFlex"><a class="navLinkFlex" href="/pages/ayuda.html">AYUDA</a></li>
+    </ul>
+    
+    <!-- Titulo -->
+    <header class="titulo">
+        <h1>Acerca</h1>
+        <hr />
+    </header>
+
+    <!-- Contenido:section -->
+    <section class="flex-container">
+
+        <!-- Imagen:div -->
+        <div class="imagen flex-col">
+            <img src="/assets/img/yo1.jpg" alt="Tu navegador no soporta la etiqueta de img" width="297" height="528">
+        </div>
+
+        <!-- Informacion de contacto:div -->
+        <div class="info-contacto flex-col">
+            <!-- Subtitulo -->
+            <div class="subtitulo">
+                <h1>Info de: <span>Jes&uacute;s Fern&aacute;ndez</span></h1>
+            </div>
+
+            <!-- Parrafos -->
+            <div class="informacion">
+                <p><b>Nombre:</b> Jes&uacute;s Fern&aacute;ndez.</p>
+                <p><b>Edad:</b> 29 a&ntilde;os.</p>
+                <p><b>Originario:</b> Reynosa Tamps.</p>
+                <p><b>Deportes:</b> Futbol, voleybol, basquetbol.</p>
+                <p><b>Hobbies:</b> Videojuegos, musica e investigacion.</p>
+                <p><b>Aprendiendo:</b> Nuevas tecnologias, mezclar musica, SCRUM.</p>
+                <p><b>Historia:</b> Nacido el dia 22 de enero de 1993, desde joven fui una persona extrovertida, social, autodidacta y con gran sentido de pertenencia. </p>
+                <p>Me gustan mucho las materias como las matematicas, fisica, quimica, calculo, electronica, aritmetica, astronomia y ayudar mucho a las personas. </p>
+            </div>
+
+        </div>
+    </section>
+
+    <audio --controls autoplay loop id="audio-acerca">
+        <source src="/assets/sound/music.wav" type="audio/wav">
+        Tu navegador no soporta la etiqueta de audio.
+    </audio>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; <script>document.write(new Date().getFullYear())</script> Jes&uacute;s Fern&aacute;ndez
+        </p>
+    </footer>
+
+       <script src="/js/script.js"></script>
+</body>
+</html>

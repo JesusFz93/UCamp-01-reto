@@ -1,0 +1,19 @@
+/* GENERAL - Flexbox */
+.flex-container-unelemento {
+  display: flex;
+  flex-direction: row;
+  margin-left: 600px;
+  width: 750px;
+}
+
+/* INICIO - Video U Camp */
+.video-ucamp {
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.video-titulo {
+  color: #09d6c7;
+}
